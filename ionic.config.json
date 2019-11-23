@@ -1,5 +1,7 @@
 {
   "name": "psd2web",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
