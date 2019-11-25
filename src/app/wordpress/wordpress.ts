@@ -15,7 +15,7 @@ export class WordpressPage {
 
   data:any=new Array();
   events: any={};
-  per_page:number=1;
+  per_page:number=10;
   spnState:string='show';
   page: number=0;
 
