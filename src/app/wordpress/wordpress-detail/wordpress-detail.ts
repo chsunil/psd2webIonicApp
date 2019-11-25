@@ -6,6 +6,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'page-wordpress-detail',
   templateUrl: 'wordpress-detail.html',
+  providers: [WordpressService]
 })
 export class WordpressDetailPage {
   post_id:number=null;

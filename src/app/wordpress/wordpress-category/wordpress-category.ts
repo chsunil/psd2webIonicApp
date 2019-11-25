@@ -7,7 +7,8 @@ import { Router, ActivatedRoute } from '@angular/router';
 
  @Component({
  	selector: 'page-wordpress-category',
- 	templateUrl: 'wordpress-category.html',
+	 templateUrl: 'wordpress-category.html',
+	 providers: [WordpressService]
  })
  export class WordpressCategoryPage {
  	data:any=new Array();

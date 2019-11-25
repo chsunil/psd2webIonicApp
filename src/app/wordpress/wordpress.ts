@@ -32,10 +32,12 @@ export class WordpressPage {
   ){
     this.loadMore();
     this.route.params.subscribe(params => {
-      this.index_menu = params.index;
-      this.page_name = environment.menu[this.index_menu].name;
-      this.page_path = environment.menu[this.index_menu].path;
-      console.log('name: ' + this.page_name + ' path: ' + this.page_path);
+this.page_name = "Wordpress";
+this.page_path = "wordpress";
+      // this.index_menu = params.index;
+      // this.page_name = environment.menu[this.index_menu].name;
+      // this.page_path = environment.menu[this.index_menu].path;
+      // console.log('name: ' + this.page_name + ' path: ' + this.page_path);
     })
   }
 

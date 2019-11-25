@@ -7,7 +7,8 @@ import { Router, ActivatedRoute } from '@angular/router';
 
  @Component({
  	selector: 'page-wordpress-favorite',
- 	templateUrl: 'wordpress-favorite.html',
+	 templateUrl: 'wordpress-favorite.html',
+	 providers: [WordpressService]
  })
  export class WordpressFavoritePage {
  	data:any=new Array();
