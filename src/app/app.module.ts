@@ -1,3 +1,4 @@
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { FormsModule } from '@angular/forms';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
@@ -31,6 +32,7 @@ import { IonicStorageModule } from '@ionic/storage';
     StatusBar,
     SplashScreen,
     WordpressService,
+    InAppBrowser,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent],

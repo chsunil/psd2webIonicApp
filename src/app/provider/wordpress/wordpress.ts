@@ -9,10 +9,9 @@ import { map, filter, scan, retry, catchError } from 'rxjs/operators';
 
 const STORAGE_KEY = "wp_favorites";
 const config = {
-  api_link: 'https://psd2web.in/wp-json/wp/v2/'
+  api_link: 'https://www.psd2web.in/wp-json/wp/v2/'
 }
 /*
-
   Generated class for the WordpressProvider provider.
 
   See https://angular.io/guide/dependency-injection for more info on providers
@@ -26,7 +25,7 @@ export class WordpressService {
     public http: HttpClient,
     public storage: Storage,
     public iab: InAppBrowser,
-    public socialSharing: SocialSharing
+    // public socialSharing: SocialSharing
   ) {
 
   }
@@ -131,7 +130,7 @@ export class WordpressService {
   // }
 
   doShare(item) {
-    this.socialSharing.share(item.name, item.content, null, item.link);
+    // this.socialSharing.share(item.name, item.content, null, item.link);
   }
 
   // goToPosts(navCtrl,item){

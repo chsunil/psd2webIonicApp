@@ -9,6 +9,7 @@ import { environment } from '../../../environments/environment';
 @Component({
   selector: 'page-wordpress-posts',
   templateUrl: 'wordpress-posts.html',
+  providers: [WordpressService]
 })
 export class WordpressPostsPage {
   	data:any=new Array();
